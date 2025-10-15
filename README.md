@@ -30,16 +30,21 @@ It's a project born from turning my own laziness into data. It's designed to moc
 
 ### Installation
 
-The recommended way to install SassyShell is with `uvx` or `pipx`. This installs it in an isolated environment so it doesn't clutter your global packages.
-
-```bash
-uvx sassyshell
-```
-
-Or, if you use `pipx`:
+The recommended way to install SassyShell is with `pipx` or `uvx`. This installs it in an isolated environment so it doesn't clutter your global packages.
 
 ```bash
 pipx install sassyshell
+```
+
+You can install `pipx` using:
+```bash
+pip install --user pipx
+```
+
+Or, if you use `uvx`:
+
+```bash
+uvx sassyshell
 ```
 
 ### Quickstart

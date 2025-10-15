@@ -23,11 +23,11 @@ dependencies = [
     "pydantic-settings>=2.11.0",
     "scikit-learn>=1.7.2",
     "typer>=0.19.2",
-    "grpcio==1.67.1",
     "langchain-google-genai>=2.1.12",
     "langchain-groq>=0.3.8",
     "langchain-openai>=0.3.35",
     "langchain-anthropic>=0.3.22",
+    "grpcio==1.67.1",
 ]
 
 [project.scripts]
